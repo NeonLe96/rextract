@@ -1,0 +1,31 @@
+{
+    "manifest_version": 2,
+    "name": "rextract",
+    "version": "1.0",
+  
+    "description": "download the thingamajig",
+  
+    "browser_action":{
+        "default_icon": {
+          "48": "icon48.png"
+        },
+        "default_title": "uwuowo?"
+    },
+  
+    "background": 
+    {
+    "scripts": ["background_script.js"]
+    },
+
+    "permissions":[
+        "tabs","downloads","*://rule34video.com/video/*","*://*.mozilla.org/*"
+    ]
+
+    // "content_scripts": [
+    // {
+    //     "matches": ["*://*.mozilla.org/*"],
+    //     "js": ["you.js"]
+    // }]
+
+
+}
